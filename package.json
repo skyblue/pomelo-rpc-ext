@@ -1,0 +1,34 @@
+{
+  "name": "pomelo-rpc-ext",
+  "version": "0.4.6",
+  "description": "rpc framework for pomelo, websocket/socket.io/tcp/zmq and more",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skyblue/pomelo-rpc-ext.git"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "crc": "^3.0.0",
+    "node-uuid": "^1.4.1",
+    "pomelo-loader": "^0.0.6",
+    "pomelo-logger": "^0.1.7",
+    "socket.io": "^1.3.5",
+    "ws": "*",
+    "zmq":"*"
+  },
+  "contributors": [
+      {
+      "name": "* Skyblue",
+      "email": "skyblue.null@gmail.com"
+    },
+    {
+      "name": "* Yongchang Zhou",
+      "email": "changchang005@gmail.com"
+    },
+    {
+      "name": "* roytan",
+      "email": "blueness883@163.com"
+    }
+  ]
+}
